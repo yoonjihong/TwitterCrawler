@@ -1,8 +1,7 @@
 <img width="100" height="100" src="https://user-images.githubusercontent.com/47561303/198845208-3d828238-4a05-44ae-8a73-06070974568f.png" />
 
 # Twitter Crawler
-트위터 트윗 크롤러 입니다.    
-수집을 원하는 키워드와 수집할 기간을 설정하면 됩니다.
+Crawlee와 Playwright 스터디 용도로 개발된 트위터 트윗 크롤러입니다.    
 
 
 ## 구현된 기능
