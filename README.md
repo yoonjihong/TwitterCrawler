@@ -1,9 +1,11 @@
-# Getting started with Crawlee
+<img width="100" height="100" src="https://user-images.githubusercontent.com/47561303/198845208-3d828238-4a05-44ae-8a73-06070974568f.png" />
 
-This example uses `PlaywrightCrawler` to recursively crawl https://crawlee.dev using the browser automation library [Playwright](https://playwright.dev).
+# Twitter Crawler
+트위터 트윗 크롤러 입니다.    
+수집을 원하는 키워드와 수집할 기간을 설정하면 됩니다.
 
-You can find more examples and documentation at the following links:
 
-- [Step-by-step tutorial](https://crawlee.dev/docs/introduction) for Crawlee
-- `PlaywrightCrawler` [API documentation](https://crawlee.dev/api/playwright-crawler/class/PlaywrightCrawler)
-- Other [examples](https://crawlee.dev/docs/examples/playwright-crawler)
+## 구현된 기능
+1. 특정 키워드와 관련된 트윗 수집
+2. 트윗 수집 기간 설정
+3. 수집된 트윗 상세페이지 스크린샷 기능
