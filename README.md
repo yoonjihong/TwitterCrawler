@@ -15,3 +15,9 @@ Crawlee와 Playwright 스터디 용도로 개발된 트위터 트윗 크롤러�
 $ yarn install
 $ yarn dev
 ```
+
+## 결과확인
+트윗 수집 결과는 `storage/datasets/default` 경로에서 확인 가능합니다.    
+수집된 트윗 스크린샷은 `screenshots` 폴더에 저장됩니다.
+
+<img width="220" alt="스크린샷 2022-10-30 오전 3 04 00" src="https://user-images.githubusercontent.com/47561303/198846470-64765fbd-9481-45c1-a2db-3d1f478f9aad.png">
