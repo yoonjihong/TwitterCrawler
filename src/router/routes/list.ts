@@ -2,6 +2,7 @@ import { Page } from 'playwright';
 import { Dataset } from 'crawlee';
 import dayjs from 'dayjs';
 import { HandleParams } from '../index';
+import { collectionPeriod } from '../../main';
 
 const getData = async (page: Page): Promise<Record<any, any>> => {
   let finish = false;
@@ -29,7 +30,7 @@ const getData = async (page: Page): Promise<Record<any, any>> => {
           .forEach((tweet: any) => {
             const created_at = dayjs(tweet.created_at).format('YYYY-MM-DD');
 
-            if (!('2022-10-27' < created_at && created_at <= '2022-10-28')) {
+            if (!(collectionPeriod[0] < created_at && created_at <= collectionPeriod[1])) {
               check = true;
             }
 
