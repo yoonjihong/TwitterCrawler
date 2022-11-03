@@ -9,7 +9,7 @@ const crawler = new PlaywrightCrawler({
 });
 
 const keyword = '마블';
-export const collectionPeriod = ['2022-10-28', '2022-10-30'];
+export const collectionPeriod = ['2022-11-02', '2022-11-03'];
 
 (async () => {
   await crawler.run([
